@@ -30,11 +30,7 @@ div {
 	float: left;
 	clear: right;}
 
-/*.copy {
-	padding: 0px 20px 0px 0px;
-}*/
-
-#copy1 {
+#text1 {
 	position: absolute;
 	top: 150px;
 	clear: right;
@@ -59,23 +55,19 @@ p {
 	left: 30px;
 	padding-right: 3px;}
 	/*
-	text-align: right;
-	clear: left;}*/
+	text-align: right;*/
 
 #p2 {background-color: #ee3e80;
 	border: 1px solid black;
 	position: relative;}
 	/*
-	text-align: right;
-	text-align: top;
-	clear: left;}*/
+	text-align: right;*/
 
 #p3 {background-color: white;
 	border: 1px solid black;
 	position: relative;}
 	/*
-	text-align: right;
-	clear: left;}*/
+	text-align: right;*/
 
 @media (min-width: 992px) {
 	.col-lg-4 #id1 {width: 33.33%;}
