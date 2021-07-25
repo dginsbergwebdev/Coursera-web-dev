@@ -1,1 +1,91 @@
+body {
+	background-color: gray;
+	font-family: Arial, Helvetica, sans-serif;}
 
+* {
+	box-sizing: border-box;}
+
+h1 {
+	background-color: lightgray;
+	text-align: center;}
+
+.row {
+	height: 438px;} 
+
+article {
+	width: 100%;}
+
+section {
+	background-color: lightgray;
+	border: 1px solid black;
+	width: 100%;}
+
+div {
+	height: 105px;
+	min-width: 182px;
+	padding: 0px 5px 25px 5px;
+	margin: 15px 15px 15px 15px;
+	border: 1px solid black;
+	/*text-align: left;*/
+	float: left;
+	clear: right;}
+
+/*.copy {
+	padding: 0px 20px 0px 0px;
+}*/
+
+#copy1 {
+	position: absolute;
+	top: 150px;
+	clear: right;
+	vertical-align: bottom;
+}
+
+p {
+	padding: 5px;
+	text-align: right;
+	position: relative;
+	top: 0px;
+	/*float: right;
+	clear: left;*/}
+
+
+#p1 {background-color: cyan;
+	display: inline;
+	width: 171px;
+	border: 1px solid black;
+	position: absolute;
+	top: 95px;
+	left: 30px;
+	padding-right: 3px;}
+	/*
+	text-align: right;
+	clear: left;}*/
+
+#p2 {background-color: #ee3e80;
+	border: 1px solid black;
+	position: relative;}
+	/*
+	text-align: right;
+	text-align: top;
+	clear: left;}*/
+
+#p3 {background-color: white;
+	border: 1px solid black;
+	position: relative;}
+	/*
+	text-align: right;
+	clear: left;}*/
+
+@media (min-width: 992px) {
+	.col-lg-4 #id1 {width: 33.33%;}
+	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-2a  #id2 {width: 50%;}
+	.col-md-2b  #id2 {width: 100%;} 
+	}
+
+@media (max-width: 767px) {
+	.col-xs #id3 {width: 100%;}
+	}
